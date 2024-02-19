@@ -1,0 +1,216 @@
+*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: century;
+
+
+}
+theader{
+
+	background-image:url(./apple.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+
+}
+
+.MAC a{
+    color: #070707;
+    padding: 0px 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900 ;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:rgb(2, 2, 2);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    
+   
+}
+
+
+ul li a:hover{
+    background: #eeecec;
+    color: #000000;
+    transition: 0.2 all;
+}
+
+ul li.active a{
+    background: #030303;
+    color:#fdfdfd;
+}
+
+.pricipale{
+    max-width: 114rem;
+    margin: 0 auto ;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taille{
+    width:50%;
+}
+
+
+.bloc{
+
+    position: absolute;
+    z-index: -1;
+
+}
+
+.produits-ordi {
+    position: relative;
+    top: 180px;
+    left: 60px;
+}
+
+
+
+.produit-pc2{
+
+    position: relative;
+    top: 0px;
+    left: 300px;
+     
+}
+
+.produit-pc3{
+
+    position: relative;
+    top: 250px;
+    left: 0px;
+
+}
+
+.produit-pc4{
+
+    position: relative;
+    top: 250px;
+    left: 320px;
+}
+
+
+.produit-pc5{
+
+    position: relative;
+    top: 250px;
+    left: 520px;
+}
+
+.produit-pc6{
+
+    position: relative;
+    top: 0px;
+    left: 590px;
+}
+
+.bt1{
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.bt2{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+
+.bt3{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 1520px;
+    margin-top: -45px;
+    
+}
+
+
+.bt4{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 130px;
+    margin-top: 450px;
+    
+}
+
+.bt5{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 620px;
+    margin-top: 450x;
+    
+}
+
+.bt6{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 1590px;
+    margin-top: -50px;
+    
+}
+
+.cover {
+    object-fit: cover;
+  }
+  

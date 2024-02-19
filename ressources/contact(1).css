@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+
+
+}
+header{
+
+background-image:url(./iphone3.jpg);
+height: 110vh;
+background-size: cover;
+background-position: center;
+margin-top: 35px;
+
+}
+
+.MAC a{
+color: #070707;
+padding: 0px 40px;
+position: absolute;
+top: 10px;
+left: 10px ;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 900 ;
+}
+
+ul{
+list-style: none;
+float: right;
+display: flex;
+margin-top: 20px;
+}
+
+ul li a{
+text-decoration: none;
+color:rgb(243, 238, 238);
+padding: 10px 20px;
+text-transform: uppercase;
+border: 1px solid transparent;
+margin: 10px;
+font-weight: 500;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+
+}
+
+
+ul li a:hover{
+background: #eeecec;
+color: #000000;
+transition: 0.2 all;
+}
+
+ul li.active a{
+background: #030303;
+color:#fdfdfd;
+}
+
+.pricipale{
+max-width: 114rem;
+margin: 0 auto ;
+}
+
+.photo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.taille{
+width:50%;
+}
+
+.formulaire{
+
+    color: #eeecec;
+    font-size: medium;
+    margin-top: 35px;
+}

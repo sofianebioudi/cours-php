@@ -1,0 +1,131 @@
+body{
+
+	background-image: url(./iphone2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#nav1{
+    width : auto;
+	height : 55px;
+}
+
+ul.menu{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+   
+}
+
+
+ul.menu li a:hover{
+    background: #fff;
+    color: #000000;
+}
+
+ul.menu li.active a{
+    background: #fff;
+    color:#000000;
+}
+
+
+
+
+.pricipale{
+    max-width: 114rem;
+    margin: 0 auto ;
+}
+
+
+
+.p2{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #f3eeee;
+    -background-color: #ffffff;
+    width : 30%;
+    padding-left: 1090px;
+}
+
+.p5{
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #f3eeee;
+    -background-color: #ffffff;
+    width : 40%;
+    padding-left: 1090px;
+    padding-top: 90px;
+}
+
+
+
+.pl2{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #f3eeee;
+    -background-color: #ffffff;
+    width : 40%;
+    padding-left: 1099px;
+}
+.produits-ordi {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+}
+
+ul li.btn a{
+    background: #030303;
+    color:#fdfdfd;
+}
+
+ul.btn1{
+    list-style: none;
+    float: left;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 1350px;
+    font-size: 15px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:rgb(2, 2, 2);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+   
+}
+
+
+ul li.btne a{
+    background: #f0efef;
+    color:#000000;
+}
+
+ul.btn2{
+    list-style: none;
+    float: left;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 1215px;
+    font-size: 15px;
+}
